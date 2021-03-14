@@ -1,2 +1,2 @@
 # C Programming Language
- Material utilizado durante o meu aprendizado de programação imperativa.
+ Material utilizado durante o meu aprendizado na disciplina de programação imperativa.
