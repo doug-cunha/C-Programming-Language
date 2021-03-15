@@ -1,0 +1,13 @@
+Alguns comandos necessários no linux
+
+pwd = exibe o diretório atual
+ls = exibe pastas e itens no diretório atual
+cd .. = muda para outro diretório
+ls -l = exibe todos os arquivos no diretório atual
+ls -a = exibe todo os arquivos, incluindo os arquivos escondidos
+ls -la = exibe todos os arquivos e pastas
+touch = cria um arquivo com o nome o seu tipo
+mv = move o arquivo para o diretório anterior
+rm = remove um arquivo ou diretório
+mkdir = cria um diretório
+

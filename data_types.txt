@@ -1,0 +1,12 @@
+C nos fornece vários tipos de dados, como int, float, double, char, struct e arrays.
+
+Arrays nos permite armazenar vários dados dentro de uma estrutura
+int num[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+Note que acima temos um array chamado num que contém um tamanho de 10 unidades, cada unidade dentro desse array é do tipo int(inteiro) e em seguida, passamos cada valor para cada índice dentro desse array. Em C, um array inicia no índice(posição) 0, ou seja, a posição 0 do nosso array contém o valor 1.
+
+
+Strings são um conjunto enfileirado de caracteres, onde podemos armazenar nomes, frases etc. 
+
+Constantes é um tipo de dado que não se altera, ou seja, não é mutável. 
+const int pi = 3.1415 -> é um exemplo de constante.
+

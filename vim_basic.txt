@@ -1,0 +1,27 @@
+Alguns exemplos de comandos básicos para se utilizarn o editor de texto vim.
+
+:syntax on -> faz com que a cor de tipos de dados, strings, funções etc mudem de cor, deixando assim o programa mais amigável.
+
+:set number -> faz com que apareça números indicando em que linha está cada comando no nosso programa. No entanto, teremos que fazer isso toda hora que abrirmos o editor de texto.
+
+Para movermos o cursor, utilizamos K para ir para cima, J para ir para baixo, H para ir para esquerda e L para ir para a direita.
+
+Para pularmos para determinada linha, pressione o número da linha que você quer modificar seguido da tecla shift e seguido da tecla g
+
+:wq faz com que o programa seja salvo e em seguida, faz com que a gente saia do programa.
+
+Outra forma de salvar e sair é pressionando a tecla shift + z + z.
+
+u -> faz com que desfaçamos alguma modificação
+
+ctrl + r -> faz com que refarçamos alguma modificação
+
+d + d -> faz com que recortemos uma linha
+
+p -> faz com que colemos aquilo que recortamos
+
+d$ -> faz com que cortemos um pedaço de algo até o final dele
+
+y + y -> faz com que colemos algum comando
+
+Esse site nos mostra vários comandos para nos ajudar no vim. https://vim.rtorr.com/

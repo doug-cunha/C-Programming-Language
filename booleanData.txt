@@ -1,0 +1,8 @@
+Valores booleanos podem ser True(Verdadeiro) ou False(Falso).
+Para se utilizar valores booleanos utilizamos da seguinte forma: _Bool variável;
+
+Exemplo:
+
+_Bool euSouGordo = 1; // 1 Representa True. 0 Representa False.
+
+No entanto, essa forma de utilizar valores booleanos não é tão intuitiva, veremos uma forma mais eficaz de utilizar valores booleanos no exemplo booleansDataType.c

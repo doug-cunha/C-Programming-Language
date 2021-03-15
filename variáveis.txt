@@ -1,0 +1,16 @@
+Variável são utilizadas para armazenar valores temporários.
+
+Há uma diferença entre:
+1) Declaração
+2) Inicialização
+
+Na declaração dizemos que a variável existe, ex: int x;
+
+Na inicialização passamos um valor para a variável, ex: int x = 5; onde int x é a declaração e 5 é a inicialização.
+
+Formas de nomear uma variável
+C é case sensitive, ou seja, diferencia letra maiúscula de letra minúscula, ex: A e a são coisas diferentes em C.
+
+C não permite utilizar espaços em variáveis, para isso, utilize _ como 'espaço'. ex: int _media;
+
+Uma boa forma de declara uma variável é nomeando ela de forma que dê a entender o que ela significa, exemplo: double mediaGeral; double totalDinheiro; etc...

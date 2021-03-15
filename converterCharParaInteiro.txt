@@ -1,0 +1,15 @@
+É possível converter caracteres em números inteiros.
+Por exemplo, o caractere A tem seu valor inteiro sendo 65.
+
+#include <stdio.h>
+
+int main(void)
+{
+	char ASCII;
+	printf("Digite um caractere: ");
+	scanf("%c", &ASCII);
+	// Note que no lugar de %c temos o %d, que irá indicar o valor respectivo do caractere digitado.
+	printf("%d\n", ASCII);
+
+	return 0;
+}

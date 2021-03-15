@@ -1,0 +1,11 @@
+C nos fornece vários operadores.
+
+5 + 5
+temos que 5 é o operando e + é o operador.
+
+Em C temos alguma classificações envolvendo operadores.
+
+Classificação:
+1) Unário -> Há um único operando
+2) Binário -> Há dois operandos
+3) Ternário -> Há três operandos.
