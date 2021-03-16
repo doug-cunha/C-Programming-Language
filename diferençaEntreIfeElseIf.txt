@@ -1,0 +1,76 @@
+Em C, temos que há uma diferença entre usar if e utilizar else if, veja:
+
+1) Digamos que tenhamos duas condições if simples seguidas
+if(expressão)
+{
+	//code
+}
+
+if(expressão)
+{
+	//code
+}
+
+Nesse caso, as duas expressões serão avaliadas, ou seja, isso pode causar problemas a depender do seu programa.
+
+2) No caso do else if temos que o programa avaliará as estruturas e só irá executar aquela que for de fato verdadeira, finalizando a estrutura.
+
+Veja um exemplo abaixo de como isso funcionaria:
+
+#include <stdio.h>
+
+int main(void)
+{
+	
+	int idade;
+	printf("Digite a sua idade: ");
+	scanf("%d", &idade);
+
+	if(idade >= 18)
+{
+	printf("Adulto\n");
+}
+
+	if(idade >= 65)
+{
+	printf("Idoso\n");
+}
+
+else
+{
+printf("Menor de idade\n");
+}
+
+return 0;
+}
+
+Note que o programa acima daria problema, pois se digirtamos 65 o programa avaliaria duas estruturas, a estrutura em que diz idade >= 18 e a estrutura idade >= 65, devolvendo assim dois resultados, isso geraria problema. Para resolver isso devemos utilizar a estrutura else if, que avalia o programa e caso a condição seja verdadeira, encera a estrutura if. Veja:
+
+#include <stdio.h>
+
+int main(void)
+{
+
+	int idade;
+	printf("Digite a sua idade: ");
+	scanf("%d", &idade);
+
+	if(idade >= 18 && idade < 65)
+{
+	printf("Adulto!\n");
+}
+
+	else if(idade >= 65)
+{
+	printf("Idoso!\n");
+}
+
+	else
+{
+	printf("Menor de idade!\n");
+}
+
+return 0;
+}
+
+Note que agora resolvemos o problema anterior, com a estrutura else if, caso digitamos a idade 65 o programa avaliará somente o caso em que idade >= 65, evitando assim a avaliação da estrutura idade >= 18.

@@ -1,0 +1,27 @@
+C nos fornece outra estrutura semelhante ao if else, e essa estrutura é a estrutura switch, ou estrutura de multi-escolha.
+
+Nota: A estrutura switch não permite comparações lógicas.
+
+#include <stdio.h>
+
+int main(void)
+{
+
+	switch(variável)
+{
+	case 'condição':
+		// código vai aqui
+		break; // Finaliza esse bloco de comando
+
+	case 'condição':
+		// código vai aqui
+		break; // Finaliza esse bloco de comando
+
+	default:
+		break;
+}
+
+	return 0;
+}
+
+Note que dentro da estrutura switch temos uma variável, essa variável sera avaliada de acordo com o case'casos', e em seguida, caso aquela caso seja igual a variável temos que o código será executado dentro daquele caso e em seguida, a estrutura break irá 'pular para fora' da estrutura switch. A estrutura default é parecida com a estrura else, ou seja, ela avalia toda a estrutura e caso nenhum caso bata com a variável, temos que a estrutura default será executada.

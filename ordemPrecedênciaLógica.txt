@@ -1,0 +1,8 @@
+Em C, temos uma ordem de precedência lógica a ser seguida.
+
+Ordem de precedência lógica:
+1) Negação '!'
+2) Conjução '&&'
+3) Disjunção '||'
+
+A ordem de execução(precedência) vai do primeiro até o último.
