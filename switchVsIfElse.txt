@@ -1,0 +1,14 @@
+Quando utilizar a estrutura switch e quando utilizar a estrutura if else?
+
+1) Switch
+- A estrutura switch é utilizada para valores inteiros ou caracteres. 
+- Há um número limitado de opções.
+- Não há intervalos.
+- Não permite o uso de operadores lógicos.
+- Switch é muito bom na construção de menus etc.
+
+2) If else
+- Permite vários tipos de dados, no entanto, não faça comparações envolvendo números de ponto flutuante.
+- Não há um número limitado de opções.
+- Há intervalo
+- Permite o uso de operadores lógicos
