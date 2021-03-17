@@ -8,7 +8,7 @@ int main(void)
 	while(i < 11)
 {
 	printf("%d ", i);
-	k = i - 1; //Recebe o valor de i e drecementa
+	k = i - 1; //Recebe o valor de i e decrementa
 	i++; // Incrementa uma unidade em i
 	
 	// k que recebe o valor de i faz a comparação
