@@ -1,0 +1,19 @@
+Conceitos a respeito de loop.
+C nos oferece três estruturas de repetição, sendo elas: while, for, do...while
+
+1) Inicialização
+Inicialização seria algo como iniciar uma variável, por exemplo
+i = 1; isso é uma inicialização
+
+2) Comparação
+Compara dois valores de forma lógica, por exemplo
+digamos que tenhamos uma condição: x <= 10, sendo que x vale 1
+é notável que x é menor ou igual a 10, por 1 é menor ou igual a 10, isso se chama comparação.
+
+3) Update(atualização)
+Após a etápa de comparação, digamos que queremos atualizar o valor de x para que ele incremente uma unidade sempre que a estrutura de repetição rodar, por exemplo
+x = 1
+x <= 10
+x++
+
+Note que isso será feito 11 vezes, no entanto, quando x for igual a 11 a condição x <= 10 passa a ser falsa, fazendo assim com que a estrutura de repetição não seja executada.
