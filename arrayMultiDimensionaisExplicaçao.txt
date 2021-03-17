@@ -1,0 +1,15 @@
+Uma array multidimensional pode ser visto como uma matiz, onde irá conter linhas e colunas
+
+Por exemplo, digamos que tenhamos 5 alunos e esses 5 alunos têm 4 matérias, poderiamos declarar essa array multidimensional da seguinte forma
+
+studentGrades[][]
+Note que o primeiro colchete se refere a row(linha) e o segundo colchete se refere a column(coluna) e studentGrades poderia ser visto como o nome da array, é bem semelhante a uma matriz.
+
+Voltando ao exemplo
+int studentGrades[5][4];
+5 alunos e 4 matérias
+
+Nota: Tanto a row(linha) como a column(coluna) são baseados em 0, ou seja, seu índice(primeiro lugar a ser preenchido) começa em 0.
+
+Uma array multidimensional é chamada de Array 2d
+Uma array unidimensional é chamada de Single Array
