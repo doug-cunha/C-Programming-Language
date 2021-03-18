@@ -1,0 +1,18 @@
+Ponteiros em C
+
+O que são ponteiros?
+- Imagine que você tem uma variável x, e que essa variável x é do tipo int e armazena o valor 5
+Esse valor 5 que está armazenado na variável x, ficará "salvo" temporariamente na memória do computador, ou seja, o computador irá reservar um espaço na memória ram para "guardar" esse valor da variável x.
+
+Mas então, o que um ponteiro faz? Bem, imagine que você quer acessar esse valor da variável x só que utilizando outra variável, isso é o que chamamos de ponteiro.
+
+Como utilizar um ponteiro?
+- Declaramos o seu tipo
+- Declaramos o seu nome
+- o nome tem que conter um asteristico para indicar que a variável é um ponteiro
+
+Exemplo:
+int *P = &x;
+Note que utilizamos o operador de endereçamento da memória para indicar em qual lugar da memória
+está o valor x. Essa variável P irá apontar para a variável x.
+Além disso, caso alterarmos o valor da variável x, o valor do ponteiro P também irá alterar.

@@ -1,0 +1,8 @@
+Livro C how to program
+Funções em C
+
+Módulos de programa em C
+- Os módulos em C são chamados de funções.
+- As funções são chamadas(ou invocadas) por uma chamada de função que especifica o nome da função e oferece informações como argumentos
+
+Nota: Uma função deve realizar uma única tarefa.
