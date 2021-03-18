@@ -1,0 +1,22 @@
+Funçõe em C
+
+Um exemplo de função em C seria a função printf()
+Dentro dos parênteses, passamos argumentos/parâmetros
+Ao passar argumentos/parâmetros nós recebemos um output de volta
+
+Podemos incluir algumas bibliotecas e dentro dessas bibliotecas podemos utilizar funções nas quais elas nos proporcionam, lembrando que para incluir uma biblioteca utilizamos #include seguido do nome da biblioteca.
+
+Uma função tem um nome válido(identificador), e dentro dessa função há parâmetros, esses parâmetros têm um tipo de dado onde ele irá receber, caso tenha mais de um parâmetros é necessário separar eles por virgula, cada parâmetro tem um tipo de dado, por fim, nossa função deve retornar algo e esse retorno deve ter um tipo, veja a estrutura de uma função em C abaixo
+
+tipoDadoRetorno identificador(tipoDeDado parâmetro)
+{
+    código vai aqui
+
+    return -> retorna o desejado
+}
+
+Nota: Parâmetro é diferente de argumento
+
+Parâmetro é o que colocamos dentro da nossa função, ao criar-lá
+Argumento é o que passamos para o parâmetro na chamada da função
+
