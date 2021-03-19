@@ -1,6 +1,6 @@
 // Exemplo de struct complexa onde irá receber valores digitados pelo usuário
-// Nota, estamos com problema ao passar o nome e o endereço da rua, resolver mais tarde!
 #include <stdio.h>
+#include <string.h>
 
 
 typedef struct dimensoesCasa
@@ -28,17 +28,21 @@ int main(void)
     minhaCasa myCasa;
 
     printf("Digite o seu nome: ");
-    scanf("%s", myCasa.donoCasa);
-    
+    scanf("%[^\n]s", myCasa.donoCasa); // [^\n] limpa o buffer
+
 
     printf("Digite as dimensões da casa, comprimento, largura e altura respectivamente em metros: ");
     scanf("%lf%lf%lf", &myCasa.dimensoesCasa.comprimento, &myCasa.dimensoesCasa.largura, &myCasa.dimensoesCasa.altura);
+    
+    
 
     printf("Digite o número da casa: ");
-    scanf("%d", &myCasa.localizacaoCasa.numeroCasa);
-
+    scanf("%d[^\n]", &myCasa.localizacaoCasa.numeroCasa);
+    getchar(); // Limpa o buffer
+    
     printf("Digite em qual rua a sua casa está localizada: ");
-    scanf("%s", myCasa.localizacaoCasa.ruaCasa);
+    scanf("%[^\n]s", myCasa.localizacaoCasa.ruaCasa);
+  
 
     
     printf("\n");
