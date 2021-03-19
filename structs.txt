@@ -1,0 +1,46 @@
+Structs em C
+
+Structs nos permite armazenar variáveis de forma interessante
+Por exemplo, digamos que queremos calcular a area de um retangulo
+Temos que a area de um retângulo é dada pela formula, Ar = b * h
+Onde b é a base e h é a altura, como poderiamos fazer isso utilizando structs?
+
+Bem, para isso podemos fazer da seguinte forma:
+
+Inicialmente precisamos criar um nome para a estrutura(struct) e dentro dessa estrutura, declamos nossas variáveis e o seus tipos
+struct retangulo
+{
+    int comprimento;
+    int altura;
+}
+
+Após isso, dentro da função main, nós utilizamos a palavra reservada struct e o seu identificador seguido de outra variável, na qual irá receber os valores de comprimento
+e altura, nesse caso meuRetangulo irá armazenar os valores do comprimento e da altura
+e em seguida, passar para a struct(estrutura) os valores correspondentes as variáveis.
+int main(void)
+{
+    struct retangulo meuRetangulo = {5, 10};
+
+    Para acessar os valores dessa estrutura, devemos fazer:
+
+    Note que utilizamos .comprimento e .altura, esse ponto nos permite acessar os valores 
+    das variáveis comprimento e altura.
+    printf("Comprimento: %d\nAltura :%d\n", meuRetangulo.comprimento, meuRetangulo.altura);
+}
+
+Há uma forma de utilizar a struct sem utilizar a palavra reservada struct dentro da função main
+Para isso fazemos:
+
+A palavra reservada typedef faz com que não precisemos utilizar struct dentro da função main.
+Nota, a variável retangulo após o typedef struct é opcional.
+typedef struct retangulo
+{
+    int comprimento;
+    int altura;
+} retangulo;
+
+int main(void)
+{
+    retangulo meuRetangulo = {5, 20};
+    printf("Comprimento: %d\nAltura: %d\n", meuRetangulo.comprimento, meuRetangulo.altura);
+}
