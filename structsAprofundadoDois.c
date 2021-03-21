@@ -29,7 +29,7 @@ int main(void)
 
     printf("Digite o seu nome: ");
     scanf("%[^\n]s", myCasa.donoCasa); // [^\n] limpa o buffer
-
+    
 
     printf("Digite as dimensões da casa, comprimento, largura e altura respectivamente em metros: ");
     scanf("%lf%lf%lf", &myCasa.dimensoesCasa.comprimento, &myCasa.dimensoesCasa.largura, &myCasa.dimensoesCasa.altura);
@@ -37,13 +37,11 @@ int main(void)
     
 
     printf("Digite o número da casa: ");
-    scanf("%d[^\n]", &myCasa.localizacaoCasa.numeroCasa);
+    scanf("%d", &myCasa.localizacaoCasa.numeroCasa);
     getchar(); // Limpa o buffer
     
     printf("Digite em qual rua a sua casa está localizada: ");
     scanf("%[^\n]s", myCasa.localizacaoCasa.ruaCasa);
-  
-
     
     printf("\n");
 
