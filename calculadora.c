@@ -163,7 +163,9 @@ int main(void)
         
         
     }
-    
+
+    printf("Finalizando o programa...\n");
+    printf("Programa finalizado.\n");
 
     return 0;
 }
